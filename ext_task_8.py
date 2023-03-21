@@ -5,12 +5,9 @@
 # 3 2 4 -> yes
 # 3 2 1 -> no
 
-print('Введите  n')
-n = int(input())
-print('Введите  m')
-m = int(input())
-print('Введите  k')
-k = int(input())
+n = int(input('Введите  n'))
+m = int(input('Введите  m'))
+k = int(input('Введите  k'))
 if k < n * m and ((k % n == 0) or (k % m == 0)):
     print('yes')
 else:

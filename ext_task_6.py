@@ -7,17 +7,16 @@
 # 123456 -> no
 
 
-print('введите номер Вашего билета!')
-NumTicket = input()
-print(NumTicket)
+vol_numticket = input('введите номер Вашего билета!  ')
+print(vol_numticket)
 
-a = int(NumTicket[0])
-b = int(NumTicket[1])
-c = int(NumTicket[2])
-d = int(NumTicket[3])  # f = int (NumTicket[5])
-e = int(NumTicket[4])
-f = int(NumTicket[5])
-if (a + b + c == d + e + f):
-    print(f'{NumTicket} -> yes')
+a = int(vol_numticket[0])
+b = int(vol_numticket[1])
+c = int(vol_numticket[2])
+d = int(vol_numticket[3])
+e = int(vol_numticket[4])
+f = int(vol_numticket[5])
+if a + b + c == d + e + f:
+    print(f'{vol_numticket} -> yes')
 else:
-    print(f'{NumTicket} -> no')
+    print(f'{vol_numticket} -> no')

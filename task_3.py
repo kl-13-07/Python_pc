@@ -7,8 +7,9 @@
 # Введите число n: 3
 # n + nn + nnn = 369
 
-print("Введите целое положительное число ")
-n = int(input())
+
+n = int(input('Введите целое положительное число'))
 nn = n + n
 nnn = n + n + n
-print(f'n + nn + nnn = {n}{nn}{nnn}')
+''.join([n, nn, nnn])
+#print(f'n + nn + nnn = {n}{nn}{nnn}' )

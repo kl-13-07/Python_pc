@@ -9,8 +9,7 @@
 # Время в формате ч:м:с - 1.0 : 60.0 : 3600
 
 
-print("Введите время в секундах?")
-time_in_second = int(input())
+time_in_second = int(input("Введите время в секундах?"))
 time_in_minutes = time_in_second / 60
 time_in_hours = time_in_minutes / 60
-print (f'Время в формате ч:м:с - {time_in_hours} : {time_in_minutes} : {time_in_second}')
+print(f'Время в формате ч:м:с - {time_in_hours} : {time_in_minutes} : {time_in_second}')

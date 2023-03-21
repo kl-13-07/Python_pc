@@ -19,9 +19,9 @@
 
 
 print('Введите выручку фирмы:')
-profit = int (input())
+profit = int(input())
 print('Введите издержки фирмы:')
-expenses = int (input())
+expenses = int(input())
 result = profit - expenses
 
 if result > 0:
