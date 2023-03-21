@@ -32,5 +32,7 @@ if result > 0:
     employees = int(input())
     profit_of_employee = result / employees
     print(f'Прибыль фирмы в расчёте на одного сотрудника = {profit_of_employee} ')
+elif result == 0:
+    print('Фирма сработала в "0"!')
 else:
     print('Фирма сработала в убыток!')
