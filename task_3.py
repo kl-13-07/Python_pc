@@ -8,8 +8,7 @@
 # n + nn + nnn = 369
 
 
-n = int(input('Введите целое положительное число'))
-nn = n + n
-nnn = n + n + n
-''.join([n, nn, nnn])
-#print(f'n + nn + nnn = {n}{nn}{nnn}' )
+n = input('Введите целое положительное число')
+summa = int(n) + int(n + n) + int(n + n + n)
+print(summa)
+
